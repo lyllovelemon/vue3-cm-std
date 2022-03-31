@@ -6,33 +6,37 @@
 
 <template>
     <el-container class="App">
-        <el-header>
-            <Header></Header>
-        </el-header>
-        <el-container>
-            <el-aside width="200px">
-                <div class="sidebar-item">
-                    <router-link to="/">首页</router-link>
-                </div>
-                <div class="sidebar-item">
-                    <router-link to="/about">关于</router-link>
-                </div>
-                <div class="sidebar-item">
-                    <router-link to="/css">动画</router-link>
-                </div>
-                <div class="sidebar-item">
-                    <router-link to="/count">Count累加器</router-link>
-                </div>
-                <div>
+        <div class="sidebar-item">
+            <router-link to="/login">登录</router-link>
+        </div>
 
-                </div>
-            </el-aside>
-            <el-container>
-                <el-main>
-                    <router-view></router-view>
-                </el-main>
-            </el-container>
-        </el-container>
+<!--        <el-header>-->
+<!--            <Header></Header>-->
+<!--        </el-header>-->
+<!--        <el-container>-->
+<!--            <el-aside width="200px">-->
+<!--                <div class="sidebar-item">-->
+<!--                    <router-link to="/">首页</router-link>-->
+<!--                </div>-->
+<!--                <div class="sidebar-item">-->
+<!--                    <router-link to="/about">关于</router-link>-->
+<!--                </div>-->
+<!--                <div class="sidebar-item">-->
+<!--                    <router-link to="/css">动画</router-link>-->
+<!--                </div>-->
+<!--                <div class="sidebar-item">-->
+<!--                    <router-link to="/count">Count累加器</router-link>-->
+<!--                </div>-->
+<!--                <div>-->
+
+<!--                </div>-->
+<!--            </el-aside>-->
+<!--            <el-container>-->
+<!--                <el-main>-->
+mock
+<!--                </el-main>-->
+<!--            </el-container>-->
+<!--        </el-container>-->
     </el-container>
 </template>
 
