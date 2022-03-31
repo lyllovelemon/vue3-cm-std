@@ -6,9 +6,22 @@ const store=createStore({
             count:360
         }
     },
+    getters:{
+        double(state){
+            return state.count*2
+        }
+    },
     mutations:{
         add(state){
             state.count++
         }
+    },
+    actions:{
+        asyncAdd({commit}){
+            setTimeout(()=>{
+                commit('add')
+            },1000)
+        }
     }
 })
+export default store
