@@ -1,11 +1,12 @@
 <template>
     <h1>首页</h1>
-    <button @click="toggle">click</button>
-    <transition name="fade">
-        <h1 v-if="showTitle">vue3小测试</h1>
-    </transition>
-    <TodoList/>
-    <HelloWorld/>
+<!--    <button @click="toggle">click</button>-->
+<!--    <transition name="fade">-->
+<!--        <h1 v-if="showTitle">vue3小测试</h1>-->
+<!--    </transition>-->
+    <Chart/>
+<!--    <TodoList/>-->
+<!--    <HelloWorld/>-->
 </template>
 
 <script setup>
@@ -14,6 +15,7 @@
     function toggle(){
         showTitle.value=!showTitle.value
     }
+    import Chart from "../components/chart/Chart.vue"
     import TodoList from "../components/TodoList.vue"
     import HelloWorld from '../components/HelloWorld.vue'
 
