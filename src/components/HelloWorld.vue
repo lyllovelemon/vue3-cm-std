@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-  import { reactive,computed,ref,watchEffect } from "vue";
+  import { reactive,computed,ref,watchEffect } from "vue"
   let count1 = ref(1)
   let color = ref('red')
   let obj=reactive({
